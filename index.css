@@ -34,7 +34,7 @@ label.switch:active
     color: #000;
 }
 
-.wrappers
+.items-slide
 {
     width: 100%;
     height: 650px;
@@ -135,11 +135,12 @@ input.photo
     display: none;
 }
 
-.wrappers .vegetable-card input.photo:checked + label img
+.items-slide .vegetable-card input.photo:checked + label img
 {
     position: fixed;
-    top: 70px;
-    left: 35%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 input.photo:checked ~ .description
 {
